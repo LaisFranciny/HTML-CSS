@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: linear-gradient(to left, #ffffff, #077a76);
+  }
+.box {
+    width: 80%;
+    background: linear-gradient(to left, #49c1b9, #63c0bc, #0d5e5b);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    max-width: 500px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+
+  }
+.date, .nome, .email{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+    margin-left: 45px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.date{
+    width: 100px;
+    margin-left: 348px;
+}
+
+h1{
+    font-size: 35px;
+    margin-left: 33%;
+    font-family: initial;
+}
+.sexo{
+    font-size: 25px;
+    margin-left: 33%;
+    font-family: initial;
+    cursor: pointer;
+}
